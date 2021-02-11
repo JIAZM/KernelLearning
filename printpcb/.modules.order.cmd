@@ -1,0 +1,1 @@
+cmd_/home/thirty/code/kernellearn/printpcb/modules.order := {   echo /home/thirty/code/kernellearn/printpcb/pcbindex.ko; :; } | awk '!x[$$0]++' - > /home/thirty/code/kernellearn/printpcb/modules.order

@@ -1,0 +1,1 @@
+cmd_/home/thirty/code/kernellearn/printpcb/pcbindex.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o /home/thirty/code/kernellearn/printpcb/pcbindex.ko /home/thirty/code/kernellearn/printpcb/pcbindex.o /home/thirty/code/kernellearn/printpcb/pcbindex.mod.o;  true
