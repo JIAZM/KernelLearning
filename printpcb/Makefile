@@ -6,4 +6,4 @@ all:
 	make -C $(KERNELDIR) M=$(PWD) modules
 
 clean:
-	@rm -rf *.o *.mod.c *.mod.o *.ko *.order Module.* *.mod
+	@rm -rf .*.swp *.swp *.order .*.cmd *.ko *.mod *.mod.c *.o *.symvers
