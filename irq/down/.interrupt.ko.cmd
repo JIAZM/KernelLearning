@@ -1,1 +1,0 @@
-cmd_/home/thirty/code/kernellearn/irq/down/interrupt.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o /home/thirty/code/kernellearn/irq/down/interrupt.ko /home/thirty/code/kernellearn/irq/down/interrupt.o /home/thirty/code/kernellearn/irq/down/interrupt.mod.o;  true

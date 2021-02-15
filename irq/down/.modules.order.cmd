@@ -1,1 +1,0 @@
-cmd_/home/thirty/code/kernellearn/irq/down/modules.order := {   echo /home/thirty/code/kernellearn/irq/down/interrupt.ko; :; } | awk '!x[$$0]++' - > /home/thirty/code/kernellearn/irq/down/modules.order
