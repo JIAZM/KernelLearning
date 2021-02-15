@@ -1,0 +1,1 @@
+cmd_/home/thirty/code/kernellearn/irq/up/Module.symvers := sed 's/ko$$/o/' /home/thirty/code/kernellearn/irq/up/modules.order | scripts/mod/modpost  -a   -o /home/thirty/code/kernellearn/irq/up/Module.symvers -e -i Module.symvers  -N -T -
