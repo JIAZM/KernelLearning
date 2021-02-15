@@ -1,1 +1,0 @@
-cmd_/home/thirty/code/kernellearn/printpcb/Module.symvers := sed 's/ko$$/o/' /home/thirty/code/kernellearn/printpcb/modules.order | scripts/mod/modpost  -a   -o /home/thirty/code/kernellearn/printpcb/Module.symvers -e -i Module.symvers  -N -T -
